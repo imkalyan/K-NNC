@@ -231,48 +231,7 @@ int main(){
     	labTra_2[i-2223]=class_label[i];
     }
     int r,k;
-  /*  float error[3][25];
-    for(r=0;r<3;r++){
-    	for(k=0;k<25;k++){
-    		error[r][k]=0.0;
-    	}
-    }
-    for(r=0;r<3;r++){
-    		if(r==0){
-    			error_calculate(Node_Validation_1,train_1,error,labVal_1,labTra_1,r,25);
-    		}
-    		if(r==1){
-    			error_calculate(Node_Validation_2,train_2,error,labVal_2,labTra_2,r,25);
-    		}
-    		if(r==2){
-    			error_calculate(Node_Validation_3,train_3,error,labVal_3,labTra_3,r,25);
-    		}
-    }
-    float err_mean[25],sum;
-    for(k=0;k<25;k++){
-    	sum=0.0;
-    	for(r=0;r<3;r++){
-    		sum = sum+error[r][k];
-    	}
-    	err_mean[k]=sum/3.0;
-    }
-    printf("\nError Averages\n");
-    for(k=0;k<25;k++){
-    	printf("%f ",err_mean[k]);
-    }
-    printf("\n\n");
-    float min = INT_MAX*1.0;
-    int ind;
-    for(k=0;k<25;k++){
-        if(err_mean[k]<min){
-            min = err_mean[k];
-            ind =k;
-        }
-    }
- //   printf("K:%d",ind+1);
-
-
-*/
+ 
     FILE *f2 = fopen("pp_tes.dat", "r"); 
  
     int test[3333][192];
